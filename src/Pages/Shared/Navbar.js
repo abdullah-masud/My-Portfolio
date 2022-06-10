@@ -1,34 +1,40 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 // import { Link } from 'react-scroll';
-import { Link } from "react-router-dom";
+import { Link as Link2 } from "react-router-dom";
+import { Link } from 'react-scroll';
 import { FiGithub, FiLinkedin } from 'react-icons/fi';
 
 const Navbar = () => {
-    // const [bg, setBg] = useState(false);
+    const [bg, setBg] = useState(false);
+
+    useEffect(() => {
+        window.addEventListener('scroll', () => {
+            return window.scrollY > 50 ? setBg(true) : setBg(false);
+        });
+    });
 
     const menuItems = <>
         <li className='text-white hover:text-accent cursor-pointer font-semibold'><Link
-            to='/'
+            to='home'
             activeClass='active'
-            spy={true}
             smooth={true}
             duration={500}
             offset={-70}
             className='transition-all duration-300'
         >Home</Link></li>
         <li className='text-white hover:text-accent cursor-pointer font-semibold'><Link
-            to='/'
+            to='about'
             activeClass='active'
-            spy={true}
+
             smooth={true}
             duration={500}
             offset={-70}
-            className='transition-all duration-300'
+            className='transition-all duration-3000'
         >About</Link></li>
         <li className='text-white hover:text-accent cursor-pointer font-semibold'><Link
-            to='/'
+            to='portfolio'
             activeClass='active'
-            spy={true}
+
             smooth={true}
             duration={500}
             offset={-70}
@@ -37,7 +43,6 @@ const Navbar = () => {
         <li className='text-white hover:text-accent cursor-pointer font-semibold'><Link
             to='/'
             activeClass='active'
-            spy={true}
             smooth={true}
             duration={500}
             offset={-70}
@@ -46,27 +51,26 @@ const Navbar = () => {
         <li className='text-white hover:text-accent cursor-pointer font-semibold'><Link
             to='/'
             activeClass='active'
-            spy={true}
             smooth={true}
             duration={500}
             offset={-70}
             className='transition-all duration-300'
         >Contact</Link></li>
-        <li className='text-white hover:text-accent cursor-pointer font-semibold'><Link
+        <li className='text-white hover:text-accent cursor-pointer font-semibold'><Link2
             to='/blogs'
             activeClass='active'
-            spy={true}
             smooth={true}
             duration={500}
             offset={-70}
             className='transition-all duration-300'
-        >Blogs</Link></li>
+        >Blogs</Link2></li>
 
     </>
 
     return (
-        <header className='bg-primary h-full border py-3'>
-            <div class="navbar  max-w-7xl mx-auto text-white">
+        <header className={`${bg ? 'bg-[#131419] h-20' : 'h-24'
+            } flex items-center fixed top-0 w-full text-white z-10 transition-all duration-300`}>
+            <div class="navbar max-w-7xl mx-auto text-white">
                 <div class="navbar-start hidden lg:flex ">
                     <ul class="menu menu-horizontal p-0 ">
                         {menuItems}
