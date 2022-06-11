@@ -11,7 +11,6 @@ const ProjectDetails = () => {
     return (
         <div className='bg-black mx-auto h-screen flex justify-center flex-col items-center '>
             <div className='max-w-7xl mx-auto px-3'>
-                <h2 className='text-white font-primary text-6xl lg:mb-6 lg:ml-6 text-center'>{name}</h2>
                 <div className='flex gap-6 lg:flex-row flex-col items-center'>
                     l<div class="carousel lg:w-1/4 rounded-xl lg:flex-1">
                         <div id="slide1" class="carousel-item relative w-full">
@@ -37,6 +36,7 @@ const ProjectDetails = () => {
                         </div>
                     </div>
                     <div className='lg:flex-1'>
+                        <h2 className='text-accent font-semibold font-primary text-6xl lg:mb-6'>{name}</h2>
                         <h2 className='text-white '>{fullDescription}</h2>
                         <h2 className='text-white my-6'>Technologies Used: {technologies}</h2>
                         <div className='flex gap-3 mb-3'>
@@ -52,7 +52,7 @@ const ProjectDetails = () => {
                                 </a>
                             }
                         </div>
-                        <div className=' flex justify-end'>
+                        <div className=''>
                             <Link to='/' className='btn btn-sm bg-accent hover:bg-accent-hover '><span><IoMdArrowBack /></span> Home</Link>
                         </div>
                     </div>

@@ -41,7 +41,7 @@ const Navbar = () => {
             className='transition-all duration-300'
         >Portfolio</Link></li>
         <li className='text-white hover:text-accent cursor-pointer font-semibold'><Link
-            to='/'
+            to='services'
             activeClass='active'
             smooth={true}
             duration={500}
@@ -49,7 +49,7 @@ const Navbar = () => {
             className='transition-all duration-300'
         >Services</Link></li>
         <li className='text-white hover:text-accent cursor-pointer font-semibold'><Link
-            to='/'
+            to='contact'
             activeClass='active'
             smooth={true}
             duration={500}
