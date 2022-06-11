@@ -9,8 +9,8 @@ const ProjectDetails = () => {
     const selectedProject = allProjects.filter(p => p.id === projectId);
     const { id, image, name, fullDescription, technologies, liveSiteHref, githubClientHref, githubServerHref } = selectedProject[0]
     return (
-        <div className='bg-black mx-auto h-screen flex justify-center flex-col items-center '>
-            <div className='max-w-7xl mx-auto px-3'>
+        <div className='bg-black mx-auto h-screen  flex justify-center flex-col items-center '>
+            <div className='max-w-7xl mx-auto px-3 lg:px-0 bg-black lg:py-0 py-12 pt-24 lg:pt-0 '>
                 <div className='flex gap-6 lg:flex-row flex-col items-center'>
                     l<div class="carousel lg:w-1/4 rounded-xl lg:flex-1">
                         <div id="slide1" class="carousel-item relative w-full">
@@ -57,8 +57,6 @@ const ProjectDetails = () => {
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
 
