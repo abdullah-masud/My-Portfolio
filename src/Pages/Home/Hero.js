@@ -19,16 +19,16 @@ const Hero = () => {
                             I Build & Design <br /> Web Interfaces.
                         </h1>
                         <div className='flex gap-x-3 lg:mt-0 mt-5 lg:flex-row flex-col'>
-                            <Link to='contact' activeClass='active'
+                            <Link to='portfolio' activeClass='active'
                                 spy={true}
                                 smooth={true}
                                 duration={500}
                                 offset={-70}
                                 className='cursor-pointer btn lg-mb-0 mb-4 lg:mt-5 btn-md bg-accent hover:bg-accent-hover  transition-all duration-300 rounded-md'>
-                                Work with me
+                                View Projects
                             </Link>
                             <a className='btn lg:mt-5 btn-md bg-accent hover:bg-accent-hover  transition-all rounded-md' href={resume} download="Resume - Masud">
-                                Download CV
+                                Resume
                             </a>
                         </div>
                     </div>

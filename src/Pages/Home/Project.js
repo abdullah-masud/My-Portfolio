@@ -11,7 +11,7 @@ const Project = ({ project }) => {
     return (
         <div key={project.id} className='flex flex-col items-center text-center lg:mt-10 '>
             <div className='mb-8'>
-                <img className='rounded-2xl' src={project.image} alt='' />
+                <img className='rounded-2xl' src={project.image1} alt='' />
             </div>
             <h3 className='text-2xl font-semibold capitalize font-primary text-white text-'>{project.name}</h3>
 

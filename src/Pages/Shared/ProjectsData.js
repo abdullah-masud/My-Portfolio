@@ -1,6 +1,17 @@
-import Project1 from '../../assets/img/projects/Star-Tech.png';
-import Project2 from '../../assets/img/projects/car-stock.png';
-import Project3 from '../../assets/img/projects/tour.inc.png';
+import startech1 from '../../assets/img/projects/Star-Tech.png';
+import startech2 from '../../assets/img/projects/details/star-tech2.png';
+import startech3 from '../../assets/img/projects/details/star-tech3.png';
+
+import carstock1 from '../../assets/img/projects/car-stock.png';
+import carstock2 from '../../assets/img/projects/details/car-stock2.png';
+import carstock3 from '../../assets/img/projects/details/car-stock3.png';
+
+
+import tourinc1 from '../../assets/img/projects/tour.inc.png';
+import tourinc2 from '../../assets/img/projects/details/tourinc2.png';
+import tourinc3 from '../../assets/img/projects/details/tourinc3.png';
+
+
 import Project4 from '../../assets/img/projects/influencer.png';
 import Project5 from '../../assets/img/projects/bootstrap.png';
 import Project6 from '../../assets/img/projects/techIq.png';
@@ -8,7 +19,9 @@ import Project6 from '../../assets/img/projects/techIq.png';
 const projectsData = [
     {
         id: '1',
-        image: Project1,
+        image1: startech1,
+        image2: startech2,
+        image3: startech3,
         name: 'Star Tech',
         description: 'Star Tech provides all of the most improved computer components for your computer',
         fullDescription: "Star Tech provides all of the most recent and improved computer components for your future computer. If you are a techie, we have just what you are searching for. You can buy whatever you want from the website and pay using credit card. You can also login and update your profile. After the purchase the shipment status can be updated via admin.",
@@ -20,7 +33,9 @@ const projectsData = [
     },
     {
         id: '2',
-        image: Project2,
+        image1: carstock1,
+        image2: carstock2,
+        image3: carstock3,
         name: 'Car Stock',
         technologies: "HTML, CSS, Bootstrap, JavaScript, React, React Router, React-Bootstrap, Node.js, Express.js MongoDB, Firebase, Axios, React Toastify, JWT, Heroku.",
         description: 'Car Stock is a warehouse management website where you may find the most recent cars',
@@ -32,7 +47,9 @@ const projectsData = [
     },
     {
         id: '3',
-        image: Project3,
+        image1: tourinc1,
+        image2: tourinc2,
+        image3: tourinc3,
         name: 'Tour.inc',
         technologies: ": HTML, CSS, Bootstrap, JavaScript, React, React Router, React-Bootstrap, Firebase, React Firebase Hook",
         description: 'This website offers you with all of the services of a professional tourist guide',
@@ -44,7 +61,7 @@ const projectsData = [
 
     {
         id: '4',
-        image: Project4,
+        image1: Project4,
         name: 'Influencer Products',
         technologies: "HTML, CSS",
         description: 'This website is for the influencers to Build Network and Nail their Brand Pitch',
@@ -55,7 +72,7 @@ const projectsData = [
     },
     {
         id: '5',
-        image: Project5,
+        image1: Project5,
         name: 'Frontend bootcamp',
         technologies: "HTML, CSS, Bootstrap ",
         description: 'This website offers you with all of the courses from professional professors',
@@ -66,7 +83,7 @@ const projectsData = [
     },
     {
         id: '6',
-        image: Project6,
+        image1: Project6,
         name: 'TechIQ',
         technologies: "React, Bootstrap, JavaScript, React-Router, recharts",
         description: 'This website provides you with the latest product statistics with the help of dashboard',

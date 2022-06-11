@@ -14,7 +14,7 @@ const Navbar = () => {
     });
 
     const menuItems = <>
-        <li className='text-white hover:text-accent cursor-pointer font-semibold'><Link
+        <li className='text-white hover:text-accent cursor-pointer font-semibold text-sm'><Link
             to='home'
             activeClass='active'
             smooth={true}
@@ -22,7 +22,7 @@ const Navbar = () => {
             offset={-70}
             className='transition-all duration-300'
         >Home</Link></li>
-        <li className='text-white hover:text-accent cursor-pointer font-semibold'><Link
+        <li className='text-white hover:text-accent cursor-pointer font-semibold text-sm'><Link
             to='about'
             activeClass='active'
 
@@ -31,7 +31,7 @@ const Navbar = () => {
             offset={-70}
             className='transition-all duration-3000'
         >About</Link></li>
-        <li className='text-white hover:text-accent cursor-pointer font-semibold'><Link
+        <li className='text-white hover:text-accent cursor-pointer font-semibold text-sm'><Link
             to='portfolio'
             activeClass='active'
 
@@ -40,7 +40,7 @@ const Navbar = () => {
             offset={-70}
             className='transition-all duration-300'
         >Portfolio</Link></li>
-        <li className='text-white hover:text-accent cursor-pointer font-semibold'><Link
+        <li className='text-white hover:text-accent cursor-pointer font-semibold text-sm'><Link
             to='services'
             activeClass='active'
             smooth={true}
@@ -48,7 +48,7 @@ const Navbar = () => {
             offset={-70}
             className='transition-all duration-300'
         >Services</Link></li>
-        <li className='text-white hover:text-accent cursor-pointer font-semibold'><Link
+        <li className='text-white hover:text-accent cursor-pointer font-semibold text-sm'><Link
             to='contact'
             activeClass='active'
             smooth={true}
@@ -56,7 +56,7 @@ const Navbar = () => {
             offset={-70}
             className='transition-all duration-300'
         >Contact</Link></li>
-        <li className='text-white hover:text-accent cursor-pointer font-semibold'><Link2
+        <li className='text-white hover:text-accent cursor-pointer font-semibold text-sm'><Link2
             to='/blogs'
             activeClass='active'
             smooth={true}
