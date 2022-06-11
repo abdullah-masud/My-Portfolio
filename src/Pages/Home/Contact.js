@@ -23,10 +23,10 @@ const Contact = () => {
                     </h2>
 
                 </div>
-                <div className='flex flex-col lg:gap-x-8 lg:flex-row'>
-                    <div className='flex flex-col items-start space-y-8 mb-12 lg:mb-0 lg:pt-2 '>
+                <div className='flex flex-col lg:gap-x-8 lg:flex-row '>
+                    <div className=' w-2/4 flex flex-col items-start space-y-8 mb-12 lg:mb-0 lg:pt-2 '>
 
-                        <div className='flex flex-col lg:flex-row gap-x-4'>
+                        <div className='flex flex-col lg:flex-row gap-x-4 '>
                             <div className='text-accent rounded-sm w-14 h-14 flex items-start justify-center mt-2 mb-4 lg:mb-0 text-2xl'>
                                 <FiMail />
                             </div>
@@ -36,7 +36,7 @@ const Contact = () => {
                                 <p className='text-accent font-normal '>Email me at masudctg00@gmail.com</p>
                             </div>
                         </div>
-                        <div className='flex flex-col lg:flex-row gap-x-4'>
+                        <div className='flex flex-col lg:flex-row gap-x-4 '>
                             <div className='text-accent rounded-sm w-14 h-14 flex items-start justify-center mt-2 mb-4 lg:mb-0 text-2xl'>
                                 <FiMapPin />
                             </div>
@@ -54,14 +54,14 @@ const Contact = () => {
                         method='POST'
                         className=' w-full h-[400px] '>
                         <div className='flex gap-x-2'>
-                            <input name='Name' type='text' placeholder='Your name' required class="input input-bordered w-full  bg-tertiary " />
-                            <input name='Email' type='email' placeholder='Your email' required class="input input-bordered w-full bg-tertiary " />
+                            <input name='Name' type='text' placeholder='Your name' required class="input input-bordered w-full  bg-tertiary text-white" />
+                            <input name='Email' type='email' placeholder='Your email' required class="input input-bordered w-full bg-tertiary text-white" />
                         </div>
                         <div>
-                            <input name='Subject' type='text' placeholder='Subject' class="input input-bordered w-full bg-tertiary my-6" />
+                            <input name='Subject' type='text' placeholder='Subject' class="input input-bordered w-full bg-tertiary my-6 text-white" />
                         </div>
                         <div className='h-1/3 '>
-                            <textarea name='Message' required class="textarea textarea-bordered w-full bg-tertiary h-full" placeholder="Your Message"></textarea>
+                            <textarea name='Message' required class="textarea textarea-bordered w-full bg-tertiary h-full text-white" placeholder="Your Message"></textarea>
                         </div>
                         <div className='my-2 '>
                             <button type='submit' className='cursor-pointer btn bg-accent hover:bg-accent-hover transition-all duration-300 rounded-md lg:mt-6 lg:mb-0 mb-6'>send message</button>

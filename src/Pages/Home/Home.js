@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Shared/Footer';
 import Navbar from '../Shared/Navbar';
 import About from './About';
 import BackTopBtn from './BackTopBtn';
@@ -18,7 +19,9 @@ const Home = () => {
             <Portfolio />
             <Services />
             <Contact />
+            <Footer />
             <BackTopBtn />
+
         </div>
     );
 };

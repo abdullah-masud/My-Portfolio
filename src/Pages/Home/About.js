@@ -6,7 +6,7 @@ const About = () => {
     return (
         <section className='section bg-secondary ' id='about'>
             <div className='container max-w-7xl mx-auto  lg:h-[70vh] flex items-center'>
-                <div className='flex flex-col xl:flex-row gap-24'>
+                <div className='flex flex-col xl:flex-row gap-24 px-3 mt-12 lg:mt-0 lg:px-0'>
                     <img
                         className='object-cover h-full w-[566px] md:mx-auto lg:mx-0 rounded-2xl'
                         src={image2}
