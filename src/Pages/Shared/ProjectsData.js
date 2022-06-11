@@ -29,7 +29,6 @@ const projectsData = [
         liveSiteHref: 'https://inside-pc-85a30.web.app/',
         githubClientHref: 'https://github.com/abdullah-masud/Star-Tech-Client',
         githubServerHref: 'https://github.com/abdullah-masud/Star-Tech-Server',
-        // category: 'UI/UX design',
     },
     {
         id: '2',
@@ -43,7 +42,6 @@ const projectsData = [
         liveSiteHref: 'https://warehouse-management-7e053.web.app/',
         githubClientHref: 'https://github.com/abdullah-masud/Car-Stock-Client',
         githubServerHref: 'https://github.com/abdullah-masud/Car-Stock-Server',
-        // category: 'UI/UX design',
     },
     {
         id: '3',
@@ -56,7 +54,6 @@ const projectsData = [
         fullDescription: "This website offers you with all of the services of a professional tourist guide. We provide three services to our valued visitors. To reserve services, you must first log in or register on our website. On our website, we also offer a number of consumer reviews. This website also offers a number of FAQs on the blog page. On the website, there is also a about us page where you may learn more about us.",
         liveSiteHref: 'https://tour-inc.web.app/',
         githubClientHref: 'https://github.com/abdullah-masud/tour.inc',
-        // category: 'web development',
     },
 
     {
@@ -68,7 +65,6 @@ const projectsData = [
         fullDescription: "This website is for the influencers to Build Network and Nail their Brand Pitch",
         liveSiteHref: 'https://abdullah-masud.github.io/Influencer-Gear/',
         githubClientHref: 'https://github.com/abdullah-masud/Influencer-Gear',
-        // category: 'branding',
     },
     {
         id: '5',
@@ -79,7 +75,6 @@ const projectsData = [
         fullDescription: "This website offers you with all of the courses from professional professors",
         liveSiteHref: 'https://abdullah-masud.github.io/Bootstrap-website/',
         githubClientHref: 'https://github.com/abdullah-masud/Bootstrap-website',
-        // category: 'web development',
     },
     {
         id: '6',
@@ -90,7 +85,6 @@ const projectsData = [
         fullDescription: "This website provides you with the latest product statistics with the help of dashboard",
         liveSiteHref: 'https://techiq.netlify.app/',
         githubClientHref: 'https://github.com/abdullah-masud/techIQ',
-        // category: 'web development',
     },
 ];
 
