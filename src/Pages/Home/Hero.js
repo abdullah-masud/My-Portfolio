@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import image from '../../assets/img/person.png'
-import resume from '../../assets/portfolio/Resume-Masud.pdf'
+import resume from '../../assets/resume/Resume-Masud.pdf'
 
 const Hero = () => {
     return (
