@@ -12,9 +12,18 @@ import tourinc2 from '../../assets/img/projects/details/tourinc2.png';
 import tourinc3 from '../../assets/img/projects/details/tourinc3.png';
 
 
-import Project4 from '../../assets/img/projects/influencer.png';
-import Project5 from '../../assets/img/projects/bootstrap.png';
-import Project6 from '../../assets/img/projects/techIq.png';
+import influencerGear1 from '../../assets/img/projects/influencer.png';
+import influencerGear2 from '../../assets/img/projects/details/influencergear2.png';
+import influencerGear3 from '../../assets/img/projects/details/influencergear3.png';
+
+import conventionCenter1 from '../../assets/img/projects/convention-center.png';
+import conventionCenter2 from '../../assets/img/projects/details/convention-center2.png';
+import conventionCenter3 from '../../assets/img/projects/details/convention-center3.png';
+
+
+import techIq1 from '../../assets/img/projects/techIq.png';
+import techIq2 from '../../assets/img/projects/details/techIq2.png';
+import techIq3 from '../../assets/img/projects/details/techIq3.png';
 
 const projectsData = [
     {
@@ -58,7 +67,9 @@ const projectsData = [
 
     {
         id: '4',
-        image1: Project4,
+        image1: influencerGear1,
+        image2: influencerGear2,
+        image3: influencerGear3,
         name: 'Influencer Products',
         technologies: "HTML, CSS",
         description: 'This website is for the influencers to Build Network and Nail their Brand Pitch',
@@ -68,17 +79,21 @@ const projectsData = [
     },
     {
         id: '5',
-        image1: Project5,
+        image1: conventionCenter1,
+        image2: conventionCenter2,
+        image3: conventionCenter3,
         name: 'Frontend bootcamp',
         technologies: "HTML, CSS, Bootstrap ",
-        description: 'This website offers you with all of the courses from professional professors',
-        fullDescription: "This website offers you with all of the courses from professional professors",
-        liveSiteHref: 'https://abdullah-masud.github.io/Bootstrap-website/',
-        githubClientHref: 'https://github.com/abdullah-masud/Bootstrap-website',
+        description: 'This website offers event management and wedding planning offers',
+        fullDescription: "Our Event Management & Wedding Planning offers you a user-friendly environment for facility scheduling and event management",
+        liveSiteHref: 'https://international-convention-center-bootstrap.netlify.app/',
+        githubClientHref: 'https://github.com/abdullah-masud/Convention-Center-Bootstrap',
     },
     {
         id: '6',
-        image1: Project6,
+        image1: techIq1,
+        image2: techIq2,
+        image3: techIq3,
         name: 'TechIQ',
         technologies: "React, Bootstrap, JavaScript, React-Router, recharts",
         description: 'This website provides you with the latest product statistics with the help of dashboard',
