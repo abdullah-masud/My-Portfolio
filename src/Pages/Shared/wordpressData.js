@@ -18,11 +18,11 @@ const wordpressData = [
     {
         id: '4',
         image1: digitalagency,
-        name: 'Delectus',
+        name: 'digital Agency',
         category: 'wordpress',
-        description: 'Leading Internet Marketing Agency Based on Florida',
+        description: 'Discover Our Proven Formula To Get Success',
         fullDescription: "Consequat enim mollis mauris vulputate phasellus neque, eros turpis et eu adipiscing id tempor, nascetur elit vitae molestie pulvinar viverra ut eu lectus mi velit cras integer tristique aliquam proin porta tellus elit neque mi velit sed pharetra morbi proin.",
-        liveSiteHref: 'https://intechblog.com/agenda/',
+        liveSiteHref: 'https://intechblog.com/digitalagency/',
         technologies: 'WordPress, Elementor Pro'
     },
 

@@ -1,17 +1,7 @@
 import React from 'react';
 //  icons
 import {
-    FiYoutube,
-    FiInstagram,
-    FiGithub,
-    FiDribbble,
-    FiLayout,
-    FiSettings,
-    FiLinkedin,
-    FiPenTool,
-    FiTag,
-    FiMail,
-    FiMapPin,
+    FiGithub, FiLinkedin,
 } from 'react-icons/fi';
 
 const Footer = () => {

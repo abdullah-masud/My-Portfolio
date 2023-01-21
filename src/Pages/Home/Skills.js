@@ -8,12 +8,13 @@ import nodejs from '../../assets/img/skills/nodejs.png';
 import mongodb from '../../assets/img/skills/mongodb.svg';
 import firebase from '../../assets/img/skills/firebase.svg';
 import wordpress from '../../assets/img/skills/wordpress.png';
+import elementor from '../../assets/img/skills/elementor.png';
 
 const Skills = () => {
     return (
         <section className='bg-tertiary py-12  '>
             <div className='container max-w-7xl mx-auto  px-2 lg:px-0'>
-                <div className='grid grid-cols-9 md:grid-flow-col'>
+                <div className='grid grid-cols-10 md:grid-flow-col'>
                     <div className='flex items-center justify-center'>
                         <img className='lg:h-20' src={html} alt='' />
                     </div>
@@ -40,6 +41,9 @@ const Skills = () => {
                     </div>
                     <div className='flex items-center justify-center'>
                         <img className='lg:h-20' src={wordpress} alt='' />
+                    </div>
+                    <div className='flex items-center justify-center'>
+                        <img className='lg:h-20' src={elementor} alt='' />
                     </div>
                 </div>
             </div>

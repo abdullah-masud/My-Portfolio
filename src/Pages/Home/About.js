@@ -18,11 +18,11 @@ const About = () => {
                                 Abdullah Al Masud
                             </h2>
                             <p className='mb-4 text-accent'>
-                                Junior Web Developer
+                                Web Developer & WordPress Developer
                             </p>
                             <hr className='mb-8 opacity-5' />
-                            <p className='mb-8 text-[#878e99]'>
-                                Current CSE student and Junior Web Developer. I have developed proficient skills in HTML, CSS, JavaScript, and React for Front-End Web Development, as well as NodeJs, MongoDb, and ExpressJs for Back-End Web Development.I created multiple MERN stack project in which I wrote client and server side code and performed crud operations. Besides web development, I am adept in other programming languages like C, Java and Python.
+                            <p className='mb-8 text-[#878e99] text-justify'>
+                                As a computer science student and junior web developer, I possess expertise in both MERN stack and WordPress development. I am skilled in HTML, CSS, JavaScript, React, NodeJs, MongoDB, and ExpressJs. I have experience in creating MERN stack projects and performing CRUD operations. Additionally, I possess skills in designing dynamic and visually-appealing websites and landing pages using WordPress, which enables me to create high-converting pages for clients. My passion for technology and ability to adapt to new skills make me eager to continue growing as a developer and contribute to the success of any team I join.
                             </p>
                         </div>
                         <Link to='contact' activeClass='active'
@@ -30,7 +30,7 @@ const About = () => {
                             smooth={true}
                             duration={500}
                             offset={-70}
-                            className='cursor-pointer btn bg-accent hover:bg-accent-hover  transition-all duration-300 rounded-md lg:mt-6 lg:mb-0 mb-6'>
+                            className='cursor-pointer btn bg-accent hover:bg-accent-hover  transition-all duration-300 rounded-md lg:mt-4 lg:mb-0 mb-6'>
                             Contact me
                         </Link>
                     </div>

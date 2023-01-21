@@ -56,14 +56,14 @@ const Navbar = () => {
             offset={-70}
             className='transition-all duration-300'
         >Contact</Link></li>
-        <li className='text-white hover:text-accent cursor-pointer font-semibold text-sm'><Link2
+        {/* <li className='text-white hover:text-accent cursor-pointer font-semibold text-sm'><Link2
             to='/blogs'
             activeClass='active'
             smooth={true}
             duration={500}
             offset={-70}
             className='transition-all duration-300'
-        >Blogs</Link2></li>
+        >Blogs</Link2></li> */}
 
     </>
 

@@ -1,14 +1,5 @@
 import React from 'react';
 import {
-    FiYoutube,
-    FiInstagram,
-    FiGithub,
-    FiDribbble,
-    FiLayout,
-    FiSettings,
-    FiLinkedin,
-    FiPenTool,
-    FiTag,
     FiMail,
     FiMapPin,
 } from 'react-icons/fi';
@@ -50,7 +41,7 @@ const Contact = () => {
                     </div>
 
                     <form
-                        action='https://formspree.io/f/xzbowgdn'
+                        action='https://formspree.io/f/xgebvrqk'
                         method='POST'
                         className=' w-full h-[400px] '>
                         <div className='flex gap-x-2'>

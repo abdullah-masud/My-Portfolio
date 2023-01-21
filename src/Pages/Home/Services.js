@@ -19,14 +19,14 @@ const Services = () => {
                             <FiLayout />
                         </div>
                         <h4 className='text-xl font-medium mb-2 text-white'>Web Design</h4>
-                        <p className='text-[#878e99] '>I can design your website using HTML, CSS, JavaScript, including multiple frameworks like React Bootstrap, and TailwindCss</p>
+                        <p className='text-[#878e99] text-justify'>I am a web designer skilled in HTML, CSS, JavaScript, React Bootstrap, TailwindCss, and WordPress. My goal is to create visually-appealing and user-friendly websites that effectively communicate your message to your target audience. I am also experienced in creating responsive designs that can adapt to various devices and screen sizes.</p>
                     </div>
                     <div className='bg-secondary p-6 rounded-2xl'>
                         <div className='text-accent rounded-sm w-12 h-12 flex justify-center items-center mb-6 text-[28px]'>
                             <FiSettings />
                         </div>
                         <h4 className='text-xl font-medium mb-2 text-white'>Web Development</h4>
-                        <p className='text-[#878e99] '>I have developed proficient skills in HTML,CSS, JavaScript, and React for Front-End, as well as NodeJs, MongoDB, and ExpressJs for Back-End Development</p>
+                        <p className='text-[#878e99] text-justify'>I am a web developer with proficiency in front-end technologies like HTML, CSS, JavaScript, React and back-end technologies like NodeJs, MongoDB, and ExpressJs. I have experience creating full-stack projects and performing CRUD operations, and expertise in WordPress development to design dynamic and visually-appealing websites.</p>
                     </div>
                 </div>
 
