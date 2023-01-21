@@ -15,9 +15,9 @@ const Contact = () => {
 
                 </div>
                 <div className='flex flex-col lg:gap-x-8 lg:flex-row '>
-                    <div className=' w-2/4 flex flex-col items-start space-y-8 mb-12 lg:mb-0 lg:pt-2 '>
+                    <div className=' lg:w-2/4 flex flex-col items-start space-y-8 mb-12 lg:mb-0 lg:pt-2 '>
 
-                        <div className='flex flex-col lg:flex-row gap-x-4 '>
+                        <div className='flex  lg:flex-row gap-x-4 '>
                             <div className='text-accent rounded-sm w-14 h-14 flex items-start justify-center mt-2 mb-4 lg:mb-0 text-2xl'>
                                 <FiMail />
                             </div>
@@ -27,8 +27,8 @@ const Contact = () => {
                                 <p className='text-accent font-normal '>Email me at masudctg00@gmail.com</p>
                             </div>
                         </div>
-                        <div className='flex flex-col lg:flex-row gap-x-4 '>
-                            <div className='text-accent rounded-sm w-14 h-14 flex items-start justify-center mt-2 mb-4 lg:mb-0 text-2xl'>
+                        <div className='flex lg:flex-row gap-x-4  '>
+                            <div className='text-accent rounded-sm w-14 h-14 flex items-start justify-center mt-2 mb-4 lg:mb-0 text-2xl '>
                                 <FiMapPin />
                             </div>
                             <div>
@@ -54,7 +54,7 @@ const Contact = () => {
                         <div className='h-1/3 '>
                             <textarea name='Message' required class="textarea textarea-bordered w-full bg-tertiary h-full text-white" placeholder="Your Message"></textarea>
                         </div>
-                        <div className='my-2 '>
+                        <div className='lg:my-2 my-4'>
                             <button type='submit' className='cursor-pointer btn bg-accent hover:bg-accent-hover transition-all duration-300 rounded-md lg:mt-6 lg:mb-0 mb-6'>send message</button>
                         </div>
 
