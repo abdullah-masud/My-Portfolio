@@ -69,7 +69,7 @@ const Navbar = () => {
 
     return (
         <header className={`${bg ? 'bg-[#131419] h-20' : 'h-24'
-            } flex items-center fixed top-0 w-full text-white z-10 transition-all duration-300`}>
+            } flex items-center fixed top-0 w-full text-white z-10 transition-all duration-300 `}>
             <div class="navbar max-w-7xl mx-auto text-white">
                 <div class="navbar-start hidden lg:flex ">
                     <ul class="menu menu-horizontal p-0 ">

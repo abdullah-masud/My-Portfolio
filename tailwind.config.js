@@ -25,6 +25,8 @@ module.exports = {
         paragraph: '#878e99',
       },
     },
+
   },
+
   plugins: [require("daisyui")],
 }
