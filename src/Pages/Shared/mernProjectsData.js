@@ -12,9 +12,9 @@ import tourinc2 from '../../assets/img/projects/details/tourinc2.png';
 import tourinc3 from '../../assets/img/projects/details/tourinc3.png';
 
 
-import influencerGear1 from '../../assets/img/projects/influencer.png';
-import influencerGear2 from '../../assets/img/projects/details/influencergear2.png';
-import influencerGear3 from '../../assets/img/projects/details/influencergear3.png';
+import techbook1 from '../../assets/img/projects/techbook.png';
+import techbook2 from '../../assets/img/projects/details/techbook2.png';
+import techbook3 from '../../assets/img/projects/details/techbook3.png';
 
 import conventionCenter1 from '../../assets/img/projects/convention-center.png';
 import conventionCenter2 from '../../assets/img/projects/details/convention-center2.png';
@@ -56,6 +56,20 @@ const mernProjectsData = [
     },
     {
         id: '3',
+        image1: techbook1,
+        image2: techbook2,
+        image3: techbook3,
+        name: 'TechBook',
+        category: 'mern',
+        technologies: "HTML, CSS, Bootstrap, JavaScript, React, React Router, React-Bootstrap, Node.js, Express.js MongoDB, Firebase, Axios, React Toastify, Heroku.",
+        description: 'TechBook is a place where users may submit blogs and read blogs that others have created',
+        fullDescription: "TechBook is a place where users may submit blogs and read blogs that others have created. On the front page, you may browse a selection of blogs that everyone has shared. Visitors to this website can read blogs without registering. However, registration is a requirement for everyone who wants to write their own blog.",
+        liveSiteHref: 'https://techbook-44fbb.web.app/',
+        githubClientHref: 'https://github.com/abdullah-masud/TechBook-Client',
+        githubServerHref: 'https://github.com/abdullah-masud/Techbook-Server'
+    },
+    {
+        id: '4',
         image1: tourinc1,
         image2: tourinc2,
         image3: tourinc3,
@@ -68,19 +82,7 @@ const mernProjectsData = [
         githubClientHref: 'https://github.com/abdullah-masud/tour.inc',
     },
 
-    {
-        id: '4',
-        image1: influencerGear1,
-        image2: influencerGear2,
-        image3: influencerGear3,
-        name: 'Influencer Products',
-        category: 'mern',
-        technologies: "HTML, CSS",
-        description: 'This website is for the influencers to Build Network and Nail their Brand Pitch',
-        fullDescription: "This website is for the influencers to Build Network and Nail their Brand Pitch",
-        liveSiteHref: 'https://abdullah-masud.github.io/Influencer-Gear/',
-        githubClientHref: 'https://github.com/abdullah-masud/Influencer-Gear',
-    },
+
     {
         id: '5',
         image1: conventionCenter1,
