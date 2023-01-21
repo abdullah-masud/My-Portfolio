@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
-import allProjects from '../Shared/ProjectsData'
+import allProjects from '../Shared/mernProjectsData'
 import { IoMdArrowBack } from "react-icons/io";
 
 const ProjectDetails = () => {

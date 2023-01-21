@@ -25,13 +25,14 @@ import techIq1 from '../../assets/img/projects/techIq.png';
 import techIq2 from '../../assets/img/projects/details/techIq2.png';
 import techIq3 from '../../assets/img/projects/details/techIq3.png';
 
-const projectsData = [
+const mernProjectsData = [
     {
         id: '1',
         image1: startech1,
         image2: startech2,
         image3: startech3,
         name: 'Star Tech',
+        category: 'mern',
         description: 'Star Tech provides all of the most improved computer components for your computer',
         fullDescription: "Star Tech provides all of the most recent and improved computer components for your future computer. If you are a techie, we have just what you are searching for. You can buy whatever you want from the website and pay using credit card. You can also login and update your profile. After the purchase the shipment status can be updated via admin.",
         technologies: "HTML, CSS, Bootstrap, JavaScript, React, React Router, React-Bootstrap, Node.js, Express.js MongoDB, Firebase, Axios, useQuery, React Toastify, JWT, Heroku.",
@@ -45,6 +46,7 @@ const projectsData = [
         image2: carstock2,
         image3: carstock3,
         name: 'Car Stock',
+        category: 'mern',
         technologies: "HTML, CSS, Bootstrap, JavaScript, React, React Router, React-Bootstrap, Node.js, Express.js MongoDB, Firebase, Axios, React Toastify, JWT, Heroku.",
         description: 'Car Stock is a warehouse management website where you may find the most recent cars',
         fullDescription: "Car Stock is a warehouse management website where you may find  the most recent cars. From Ferrari to Lamborghini, there's something for everyone.  By clicking a button, you may control the car's stock. You may also control the vehicles you've added. In My Items page, you'll see the automobiles you've added. You may also log in and manually add automobiles to the inventory. You may also read other people's reviews and leave your own.",
@@ -58,6 +60,7 @@ const projectsData = [
         image2: tourinc2,
         image3: tourinc3,
         name: 'Tour.inc',
+        category: 'mern',
         technologies: ": HTML, CSS, Bootstrap, JavaScript, React, React Router, React-Bootstrap, Firebase, React Firebase Hook",
         description: 'This website offers you with all of the services of a professional tourist guide',
         fullDescription: "This website offers you with all of the services of a professional tourist guide. We provide three services to our valued visitors. To reserve services, you must first log in or register on our website. On our website, we also offer a number of consumer reviews. This website also offers a number of FAQs on the blog page. On the website, there is also a about us page where you may learn more about us.",
@@ -71,6 +74,7 @@ const projectsData = [
         image2: influencerGear2,
         image3: influencerGear3,
         name: 'Influencer Products',
+        category: 'mern',
         technologies: "HTML, CSS",
         description: 'This website is for the influencers to Build Network and Nail their Brand Pitch',
         fullDescription: "This website is for the influencers to Build Network and Nail their Brand Pitch",
@@ -83,6 +87,7 @@ const projectsData = [
         image2: conventionCenter2,
         image3: conventionCenter3,
         name: 'Frontend bootcamp',
+        category: 'mern',
         technologies: "HTML, CSS, Bootstrap ",
         description: 'This website offers event management and wedding planning offers',
         fullDescription: "Our Event Management & Wedding Planning offers you a user-friendly environment for facility scheduling and event management",
@@ -95,12 +100,14 @@ const projectsData = [
         image2: techIq2,
         image3: techIq3,
         name: 'TechIQ',
+        category: 'mern',
         technologies: "React, Bootstrap, JavaScript, React-Router, recharts",
         description: 'This website provides you with the latest product statistics with the help of dashboard',
         fullDescription: "This website provides you with the latest product statistics with the help of dashboard",
         liveSiteHref: 'https://techiq.netlify.app/',
         githubClientHref: 'https://github.com/abdullah-masud/techIQ',
     },
+
 ];
 
-export default projectsData
+export default mernProjectsData

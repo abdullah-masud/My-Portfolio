@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 
 const Project = ({ project }) => {
     const navigate = useNavigate();
-
     const navigateToProjectDetails = id => {
         navigate(`/projectDetails/${id}`)
     }
@@ -23,19 +22,24 @@ const Project = ({ project }) => {
                 <a className='text-accent hover:text-white cursor-pointer' href={project.liveSiteHref} target="_blank" rel='noreferrer'>
                     Live Website
                 </a>
-                <a className='text-accent hover:text-white cursor-pointer' href={project.githubClientHref} target="_blank" rel='noreferrer'>
-                    Github Client
-                </a>
+                {
+                    project.githubClientHref && <a className='text-accent hover:text-white cursor-pointer' href={project.githubClientHref} target="_blank" rel='noreferrer'>
+                        Github Client
+                    </a>
+                }
                 {
                     project.githubServerHref && <a className='text-accent hover:text-white cursor-pointer' href={project.githubServerHref} target="_blank" rel='noreferrer'>
                         Github Server
                     </a>
                 }
             </div>
-            <button
-                onClick={() => navigateToProjectDetails(project.id)}
-                class="btn btn-sm bg-accent hover:bg-accent-hover"
-            >Details</button>
+            {
+                project.category === 'mern' && <button
+                    onClick={() => navigateToProjectDetails(project.id)}
+                    class="btn btn-sm bg-accent hover:bg-accent-hover"
+                >Details</button>
+            }
+
 
         </div>
     );
