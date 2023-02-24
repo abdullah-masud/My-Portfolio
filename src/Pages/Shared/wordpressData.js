@@ -2,6 +2,7 @@ import delectus from '../../assets/img/projects/wp/delectus.png'
 import bounty from '../../assets/img/projects/wp/bounty.png'
 import agenda from '../../assets/img/projects/wp/agenda.png'
 import digitalagency from '../../assets/img/projects/wp/digital-agency.png'
+import naxos from '../../assets/img/projects/wp/naxos.png'
 
 
 const wordpressData = [
@@ -44,6 +45,16 @@ const wordpressData = [
         description: 'HELPS PEOPLE LIFE',
         fullDescription: "Consequat enim mollis mauris vulputate phasellus neque, eros turpis et eu adipiscing id tempor, nascetur elit vitae molestie pulvinar viverra ut eu lectus mi velit cras integer tristique aliquam proin porta tellus elit neque mi velit sed pharetra morbi proin.",
         liveSiteHref: 'https://intechblog.com/bounty/',
+        technologies: 'WordPress, Elementor Pro'
+    },
+    {
+        id: '5',
+        image1: naxos,
+        name: 'Naxos',
+        category: 'wordpress',
+        description: 'Get the new App for iPhone & Android',
+        fullDescription: "Consequat enim mollis mauris vulputate phasellus neque, eros turpis et eu adipiscing id tempor, nascetur elit vitae molestie pulvinar viverra ut eu lectus mi velit cras integer tristique aliquam proin porta tellus elit neque mi velit sed pharetra morbi proin.",
+        liveSiteHref: 'https://intechblog.com/naxos/',
         technologies: 'WordPress, Elementor Pro'
     },
 
