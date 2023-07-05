@@ -5,6 +5,8 @@ import {
 } from 'react-icons/fi';
 
 const Footer = () => {
+    const year = new Date().getFullYear()
+
     return (
         <footer className='bg-tertiary py-12'>
             <div className='container mx-auto'>
@@ -20,7 +22,8 @@ const Footer = () => {
 
                     </div>
                     <p className='text-paragraph opacity-80 text-[15px]'>
-                        &copy; 2022 Abdullah Al Masud. All rights reserved.
+                        &copy; {year}, Abdullah Al Masud | Portfolio | All rights reserved
+
                     </p>
                 </div>
             </div>
