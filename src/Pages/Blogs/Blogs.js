@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Navbar from '../Shared/Navbar';
 
 const Blogs = () => {
     return (

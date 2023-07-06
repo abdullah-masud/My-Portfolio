@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 // import { Link } from 'react-scroll';
-import { Link as Link2 } from "react-router-dom";
+// import { Link as Link2 } from "react-router-dom";
 import { Link } from 'react-scroll';
 import { FiGithub, FiLinkedin } from 'react-icons/fi';
 
