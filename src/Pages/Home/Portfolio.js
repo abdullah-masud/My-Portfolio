@@ -21,7 +21,7 @@ const Portfolio = () => {
                     <h2 className='before:content-portfolio relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-3/4 before:hidden before:lg:block mb-[-10px] text-white text-4xl font-semibold font-primary lg:my-0 my-12'>
                         My latest Projects
                     </h2>
-                    <div className='lg:mt-0 mt-8'>
+                    <div className='lg:mt-0 mt-8 flex'>
                         <button onClick={switchToMernProject} activeClass='active'
                             spy={true}
                             smooth={true}
@@ -30,14 +30,17 @@ const Portfolio = () => {
                             className='cursor-pointer btn btn-sm bg-accent hover:bg-accent-hover  transition-all duration-300 rounded-md lg:mt-6 lg:mb-0 mb-6 mr-4'>
                             MERN
                         </button>
-                        <button onClick={switchToWordPressProject} to='contact' activeClass='active'
-                            spy={true}
-                            smooth={true}
-                            duration={500}
-                            offset={-70}
-                            className='cursor-pointer btn btn-sm bg-accent hover:bg-accent-hover  transition-all duration-300 rounded-md lg:mt-6 lg:mb-0 mb-6'>
-                            WordPress
-                        </button>
+                        <div className="tooltip  tooltip-right" data-tip="Some of the WordPress websites are currently presented as screenshots due to the absence of hosting and a domain">
+                            <button onClick={switchToWordPressProject} to='contact' activeClass='active'
+                                spy={true}
+                                smooth={true}
+                                duration={500}
+                                offset={-70}
+                                className='cursor-pointer btn btn-sm bg-accent hover:bg-accent-hover  transition-all duration-300 rounded-md lg:mt-6 lg:mb-0 mb-6'>
+                                WordPress
+                            </button>
+                        </div>
+
                     </div>
                 </div>
                 {/* <Projects /> */}
