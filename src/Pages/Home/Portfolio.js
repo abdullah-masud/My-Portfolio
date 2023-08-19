@@ -30,7 +30,7 @@ const Portfolio = () => {
                             className='cursor-pointer btn btn-sm bg-accent hover:bg-accent-hover  transition-all duration-300 rounded-md lg:mt-6 lg:mb-0 mb-6 mr-4'>
                             MERN
                         </button>
-                        <div className="tooltip  tooltip-right" data-tip="Some of the WordPress websites are currently presented as screenshots due to the absence of hosting and a domain">
+                        <div className="tooltip lg:tooltip-right tooltip-bottom " data-tip="Some of the WordPress websites are currently presented as screenshots due to the absence of hosting and a domain">
                             <button onClick={switchToWordPressProject} to='contact' activeClass='active'
                                 spy={true}
                                 smooth={true}
