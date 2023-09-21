@@ -24,7 +24,8 @@ const Contact = () => {
                             <div>
                                 <h4 className='text-xl mb-1 text-white font-semibold '>Have a question?</h4>
                                 <p className='mb-1 text-paragraph'>I am here to help you.</p>
-                                <p className='text-accent font-normal '>Email me at masudctg00@gmail.com</p>
+                                <a href="mailto:masudctg00@gmail.com" class="text-accent font-normal ">Email me at masudctg00@gmail.com</a>
+
                             </div>
                         </div>
                         <div className='flex lg:flex-row gap-x-4  '>
