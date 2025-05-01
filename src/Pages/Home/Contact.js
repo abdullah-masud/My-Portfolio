@@ -34,7 +34,7 @@ const Contact = () => {
                             </div>
                             <div>
                                 <h4 className='text-xl mb-1 text-white font-semibold'>Current Location</h4>
-                                <p className='mb-1 text-paragraph'>Chittagong, Bangladesh</p>
+                                <p className='mb-1 text-paragraph'>Perth, Western Australia</p>
                                 <p className='text-accent font-normal '>Serving clients worldwide</p>
                             </div>
                         </div>
