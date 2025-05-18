@@ -22,15 +22,15 @@ const Navbar = () => {
             offset={-70}
             className='transition-all duration-300'
         >Home</Link></li>
-        {/* <li className='text-white hover:text-accent cursor-pointer font-semibold text-sm'><Link
-            to='about'
+        <li className='text-white hover:text-accent cursor-pointer font-semibold text-sm'><Link
+            to='about2'
             activeClass='active'
 
             smooth={true}
             duration={500}
             offset={-70}
             className='transition-all duration-3000'
-        >About</Link></li> */}
+        >About</Link></li>
         <li className='text-white hover:text-accent cursor-pointer font-semibold text-sm'><Link
             to='portfolio'
             activeClass='active'
@@ -40,14 +40,14 @@ const Navbar = () => {
             offset={-70}
             className='transition-all duration-300'
         >Portfolio</Link></li>
-        <li className='text-white hover:text-accent cursor-pointer font-semibold text-sm'><Link
+        {/* <li className='text-white hover:text-accent cursor-pointer font-semibold text-sm'><Link
             to='services'
             activeClass='active'
             smooth={true}
             duration={500}
             offset={-70}
             className='transition-all duration-300'
-        >Services</Link></li>
+        >Services</Link></li> */}
         <li className='text-white hover:text-accent cursor-pointer font-semibold text-sm'><Link
             to='contact'
             activeClass='active'

@@ -5,7 +5,7 @@ import {
 
 const About2 = () => {
     return (
-        <section id='services' className='section bg-tertiary py-5'>
+        <section id='about2' className='section bg-tertiary py-5 lg:pt-10'>
             <div className='container max-w-7xl mx-auto lg:h-[63vh] flex flex-col justify-center px-3 lg:pb-12 pb-12'>
                 <div className='flex flex-col items-center text-center'>
                     <div className='relative text-center mb-8'>
