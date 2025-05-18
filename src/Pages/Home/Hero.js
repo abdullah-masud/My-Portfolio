@@ -7,18 +7,21 @@ const Hero = () => {
     return (
         <section
             id='home'
-            className='lg:h-[80vh]  flex items-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'
+            className='lg:h-[80vh]  flex items-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-20 lg:py-0 overflow-hidden'
         >
-            <div className='container h-full max-w-7xl mx-auto mt-12'>
+            <div className='container h-full max-w-7xl mx-auto mt-12 flex justify-center'>
                 <div className='flex items-center h-full pt-8 '>
                     <div className='flex-1 flex flex-col items-center  lg:items-start'>
-                        <p className='text-lg text-accent text-md mb-[22px]'>
+                        <p className='text-lg text-accent text-md mb-[22px] mx-auto' >
                             Hi, I'm Abdullah Al Masud! 👋
                         </p>
-                        <h1 className='text-4xl text-white font-primary leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px] lg:mb-0 mb-3 lg:text-start text-center'>
-                            I Build & Design <br /> Web Interfaces
+                        <h1 className='text-2xl  text-white font-primary leading-[44px] md:text-5xl md:leading-tight lg:text-6xl lg:leading-[1.2] font-bold md:tracking-[-2px] lg:mb-0 mb-3 lg:text-start text-center lg:px-0 px-20 '>
+                            Software Engineer & Full-Stack Developer
                         </h1>
-                        <div className='flex gap-x-3 lg:mt-0 mt-5 lg:flex-row flex-col'>
+                        <p className='text-md text-gray-300 lg:mt-4 lg:mb-8 px-2 text-center mx-auto'>
+                            Crafting seamless web experiences with modern technologies. Let's build something amazing
+                        </p>
+                        <div className='flex gap-x-3 lg:mt-0 mt-5 lg:flex-row   mx-auto '>
                             <Link to='portfolio' activeClass='active'
                                 spy={true}
                                 smooth={true}
@@ -32,9 +35,7 @@ const Hero = () => {
                             </a>
                         </div>
                     </div>
-                    <div className='hidden lg:flex flex-1  justify-end items-end lg:h-full '>
-                        <img className='' src={image} alt='' />
-                    </div>
+
                 </div>
             </div>
         </section>

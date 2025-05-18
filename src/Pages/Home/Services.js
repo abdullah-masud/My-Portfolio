@@ -9,7 +9,7 @@ const Services = () => {
             <div className='container max-w-7xl mx-auto lg:h-[63vh] flex flex-col justify-center px-3 lg:pb-12 pb-12'>
                 <div className='flex flex-col items-center text-center'>
                     <h2 className='section-title before:content-services relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-28 before:hidden before:lg:block mb-10 text-white font-primary text-4xl font-semibold lg:mt-0 mt-12'>
-                        What I do for clients
+                        My Professional Services
                     </h2>
 
                 </div>

@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 
 const About = () => {
     return (
-        <section className='section bg-secondary ' id='about'>
+        <section className='section bg-secondary boder py-6' id='about'>
             <div className='container max-w-7xl mx-auto  lg:h-[70vh] flex items-center'>
                 <div className='flex flex-col xl:flex-row gap-24 px-3 mt-12 lg:mt-0 lg:px-0'>
                     <img
