@@ -22,7 +22,7 @@ const Navbar = () => {
             offset={-70}
             className='transition-all duration-300'
         >Home</Link></li>
-        <li className='text-white hover:text-accent cursor-pointer font-semibold text-sm'><Link
+        {/* <li className='text-white hover:text-accent cursor-pointer font-semibold text-sm'><Link
             to='about'
             activeClass='active'
 
@@ -30,7 +30,7 @@ const Navbar = () => {
             duration={500}
             offset={-70}
             className='transition-all duration-3000'
-        >About</Link></li>
+        >About</Link></li> */}
         <li className='text-white hover:text-accent cursor-pointer font-semibold text-sm'><Link
             to='portfolio'
             activeClass='active'

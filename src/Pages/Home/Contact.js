@@ -6,7 +6,7 @@ import {
 
 const Contact = () => {
     return (
-        <section className='section bg-primary lg:h-[700px] flex items-center' id='contact'>
+        <section className='section bg-secondary lg:h-[700px] flex items-center' id='contact'>
             <div className='container max-w-7xl mx-auto px-4 '>
                 <div className='flex flex-col items-center text-center'>
                     <h2 className='section-title before:content-contact relative before:absolute before:opacity-40 before:-top-7 before:-left-40 before:hidden before:lg:block text-4xl text-white font-primary lg:my-0 my-12 lg:mb-12 font-semibold'>
